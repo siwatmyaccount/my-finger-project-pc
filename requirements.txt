@@ -1,0 +1,7 @@
+customtkinter
+matplotlib
+mediapipe
+numpy
+opencv-python
+Pillow
+pygame

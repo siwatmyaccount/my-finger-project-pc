@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+
+# Build output
+build/
+dist/
+*.egg-info/
+
+# Local training records and logs
+Anti-Finger.txt
+Anti-Finger.txt.bak
+Anti-Finger.json
+Anti-Finger.log
+data/
+*.log
+
+# Raspberry Pi deployment files (kept out of the PC repository)
+Anti-Finger.sh
+Anti-Finger.service
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local/generated assets
+pictures/pose_1/drive-download-*.zip
+hatyai_logo.png
+robot_hand.png
+small_hand.png
