@@ -41,7 +41,7 @@
 
    ```powershell
    git clone https://github.com/siwatmyaccount/anti-trigger-fingers-pc.git
-   cd anti-trigger-fingers-pc
+   cd my-finger-project-pc
    ```
 
    หากดาวน์โหลดแบบ ZIP ให้แตกไฟล์ แล้วเปิด PowerShell ภายในโฟลเดอร์ที่มีไฟล์ `main.py`
