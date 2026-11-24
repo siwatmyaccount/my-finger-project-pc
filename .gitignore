@@ -16,6 +16,9 @@ Anti-Finger.txt.bak
 Anti-Finger.json
 Anti-Finger.log
 data/
+web_reports/
+report_state.json*
+.test-artifacts/
 *.log
 
 # Raspberry Pi deployment files (kept out of the PC repository)

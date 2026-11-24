@@ -6,11 +6,16 @@ datas = [
     ('Voices', 'Voices'),
     ('Sarabun-Regular.ttf', '.'),
     ('Sarabun-Bold.ttf', '.'),
+    ('fonts/OFL.txt', 'fonts'),
+    ('hand_landmarker.task', '.'),
 ]
 binaries = []
 hiddenimports = []
-tmp_ret = collect_all('mediapipe')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
+for package in ('ai_edge_litert', 'customtkinter', 'qrcode'):
+    package_data, package_binaries, package_imports = collect_all(package)
+    datas += package_data
+    binaries += package_binaries
+    hiddenimports += package_imports
 
 
 a = Analysis(
